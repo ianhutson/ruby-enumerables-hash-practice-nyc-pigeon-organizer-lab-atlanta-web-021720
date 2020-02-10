@@ -1,7 +1,7 @@
 def nyc_pigeon_organizer(data)
-  print data
   hash = {}
   data.each do |key, value|
+    print data
     value.each do |new_value, names|
       names.each do |name|
         
