@@ -6,19 +6,4 @@ def nyc_pigeon_organizer(data)
     print "______________"
     print name
     print "______________"
-        if !hash[name]
-          hash[name] = {}
-        end
-        
-        if !hash[name][key]
-          hash[name][key] = []
-        end
-        
-        hash[name][key] << new_value.to_s
-        
-        end
-      end
-    end
-  
-  hash
-  end
+
