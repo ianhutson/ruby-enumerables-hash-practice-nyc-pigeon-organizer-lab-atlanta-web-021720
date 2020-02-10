@@ -3,8 +3,8 @@ def nyc_pigeon_organizer(data)
   data.each do |key, value|
     print "______________"
     print key
-    print "______________"
     print value
+    print "______________"
     value.each do |new_value, names|
       names.each do |name|
         
