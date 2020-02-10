@@ -1,11 +1,12 @@
 def nyc_pigeon_organizer(data)
   hash = {}
   data.each do |key, value|
-    print "______________"
-    print key
-    print value
-    print "______________"
+
     value.each do |new_value, names|
+    print "______________"
+    print new_value
+    print names
+    print "______________"
       names.each do |name|
         
         if !hash[name]
