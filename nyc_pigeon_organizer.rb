@@ -1,6 +1,5 @@
-require "pry"
-
 def nyc_pigeon_organizer(data)
+  print data
   hash = {}
   data.each do |key, value|
     value.each do |new_value, names|
