@@ -2,7 +2,8 @@ def nyc_pigeon_organizer(data)
   hash = {}
   # data is original hash 
   data.each do |key, value|
-    #key == ":color, :gender, or 'lives'
+    #key == ":color, :gender, or 'lives'"
+    #value =
     value.each do |new_value, names|
       names.each do |name|
     print "______________"
